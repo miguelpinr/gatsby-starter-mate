@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cleandir ./.cache && gatsby build",
-    "develop": "cleandir ./.cache && gatsby develop",
+    "develop": "cleandir ./.cache && gatsby develop --open",
     "start": "npm run develop",
     "lint": "eslint ./src",
     "setup": "node ./bin/setup.js"
